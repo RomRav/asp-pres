@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = monpetittuto
+build_property.RootNamespace = monpetittuto
+build_property.ProjectDir = C:\romain\LaManu\ASP.NET\Présentation\monpetittuto\monpetittuto\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\romain\LaManu\ASP.NET\Présentation\monpetittuto\monpetittuto
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Article/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Home/QuiSuisJe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWlTdWlzSmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shop/Boutique1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxCb3V0aXF1ZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shop/ShopsHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wc0hvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Test/Test1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Test/Test2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/romain/LaManu/ASP.NET/Présentation/monpetittuto/monpetittuto/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k98mgof7h6

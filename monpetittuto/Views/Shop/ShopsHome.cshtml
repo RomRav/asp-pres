@@ -1,0 +1,11 @@
+﻿
+@model IEnumerable<monpetittuto.Models.ShopModel>
+@{
+    ViewData["Title"] = "Liste des shops";
+}
+<h1>Shops : </h1>
+@foreach(ShopModel shop in Model)
+{
+    @Html.ActionLink(@shop.Name, @shop.Name)<br />
+    @*<a asp-page="@shop.Name">@shop.Name</a><br />*@
+}
