@@ -11,5 +11,6 @@ namespace monpetittuto.Data
 
         public DbSet<Article> Articles { get; set; }
         public DbSet<ShopModel> Shop { get; set; }
+        public DbSet<Categorie> Categorie { get; set; }
     }
 }

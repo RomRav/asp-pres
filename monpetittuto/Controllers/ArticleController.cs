@@ -38,6 +38,7 @@ namespace monpetittuto.Controllers
             {
                 _db.Articles.Add(newArticle);
                 _db.SaveChanges();
+                TempData["success"] = "L'article a bien été ajouté.";
                 return RedirectToAction("Index");
             }
            
@@ -47,22 +48,22 @@ namespace monpetittuto.Controllers
         [Route("Delete")]
         public IActionResult Delete(int id)
         {
+            
             Article articleToDel = new Article { Id = id};
             _db.Articles.Remove(articleToDel);
             _db.SaveChanges();
+            TempData["success"] = "L'article a bien été supprimé.";
             return RedirectToAction("Index");
         }
         //Affiche le formulaire de modification d'un article
         public IActionResult Update(int? id)
         {
             var article = _db.Articles.Find(id);
-            if (article == null)
+            if (article == null || id == 0)
             {
                 return NotFound();
             }
-            //_db.Articles.Update(article);
-            //_db.SaveChanges();
-            //return RedirectToAction("Index");
+            
 
             return View(article);
         }
@@ -75,17 +76,15 @@ namespace monpetittuto.Controllers
             {
                 ModelState.AddModelError("double", "Titre et contenu sont identique.");
             }
-            ViewBag.content = updateArticle.Title + " " + updateArticle.Content;
             if (ModelState.IsValid)
             {
+                updateArticle.DatelastEdit = DateTime.Now;
                 _db.Articles.Update(updateArticle);
                 _db.SaveChanges();
+                TempData["success"] = "L'article a bien été modifié.";
                 return RedirectToAction("Index");
             }
             return View(updateArticle);
         }
-
-
-
     }
 }

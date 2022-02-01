@@ -49,6 +49,10 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            @if(TempData["success"] != null)
+            {
+                <div class="alert alert-success" role="alert"> @TempData["success"]</div>
+            }
             @RenderBody()
         </main>
     </div>

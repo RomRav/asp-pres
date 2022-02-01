@@ -29,3 +29,9 @@ namespace monpetittuto.Migrations
         }
     }
 }
+
+//1. Crée le model ext : Article.cs
+//2. Ajouter la table au fichier DbConnect.cs
+//3. Lancer la console : add-migration 'nomDeLaMigration'
+//3bis. Verif que mon fichier migration n'est pas vide.
+//4. update-database
